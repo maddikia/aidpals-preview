@@ -12,20 +12,20 @@ A quick look into my project from Microsoft's New Technologists 2021. All source
 - `npm install @material-ui/core` and `npm install @material-ui/icons`
 - `npm install @fluentui/react`
 
-# PROJECT SPECIFICATION
-## Problem statement
+## Project Specification
+### Problem statement
 
 Many individuals, groups, and families often struggle to cover emergency costs (e.g., healthcare, funeral) and fear for their financial outlook. Users desire a personalized crowdfunding platform to contribute to and secure emergency funds (e.g., from friends and family, local communities, or even affinity groups (e.g., LGBTQ+, BIPOC)).
 
 
-## Summary
+### Summary
 
 Today, crowdfunding is not a reliable tool for covering emergencies, with over 90% of GoFundMe medical campaigns failing to reach their financial target. Additionally, current crowdfunding sources are impersonal and commercialized, with emphasis on storytelling. Campaigns that share an excess of personal information have shown to be the most successful, and there are concerns about the vulnerability of patients who feel pressured to subordinate their rights to privacy in order to raise money. Biases can also be roadblocks to funding—crowdfunding has been most effective in areas of high income and education, with donors coming from the same socio-economic class as those in need. This puts those in low-income and underserved communities at a significant disadvantage, and those that donate to strangers are often wary that their money is even going to the correct people/community.  
 
 For anyone that struggles with covering emergency costs, especially those in underserved communities, AidPals is a crowdfunding meets mutual aid app that aims to remove bias and the sharing of sensitive information from crowdfunding through a community-centric model. Unlike Indiegogo, MoneyFellows, and GoFundMe, our product comes at no additional usage cost and builds communities between people who need help and those willing to offer it while protecting users' privacy. It also gives those who may need it a safety net for the future through an emergency-focused saving system inspired by rotating savings and mutual aid funds. Through AidPals, our users can comfortably ask for help from people they know or groups they can relate to.
 
 
-## Customer profile
+### Customer profile
 
 AidPal’s initial target market is Low-income individuals, groups, families, and/or affinity groups (e.g., LGBTQ+, BIPOC), as well as the individuals who want to contribute to their emergency funds. 
 
@@ -49,20 +49,20 @@ Every month, Rebecca and her family contribute to the circle. A few months in, h
 **Persona 3:**
 John has donated to GoFundMe campaigns from time to time, but he wants to make a recurring impact on his local community. John hears about AidPals, and realizes that he can use the app to donate to local circles. When he joins the app, he searches for communities near him and sets up a recurring donation to a popular circle in his area. He is happy that he can be sure his donations are going straight to local community members in their times of need.  
 
-## Goals
+### Goals
 
 - Build a community support system – people of similar experiences or locations can depend on and support each other financially in strenuous times or when emergencies emerge.  
 - Improve financial security - many low-income communities do not have a safety net that can be used to meet unanticipated expenses such as illness or major home repairs. AidPals could serve as an emergency fund to cover such unexpected expenses. 
 - Remove bias in crowdfunding by creating inclusive, community-oriented spaces (circles). 
 - Increase donor satisfaction - most crowdfunding apps do not take accountability in letting donors know if their contributions went into the intended goal. With AidPals, donors get to see how they helped others out. 
 
-## Non-Goals
+### Non-Goals
 - Create a fully public crowdfunding platform like GoFundMe.  
 - Display (or allow users to display) sensitive, private information to large public groups, including images of sick patients and constant medical updates.
 - Center storytelling as a factor to crowdfunding success.  
 - Allow users to request from circle pools without personal contribution. 
 
-## In scope
+### In scope
 
 - P0: A user can sign-up for the app. 
 - P0: A user can join a new circle. 
@@ -88,7 +88,7 @@ John has donated to GoFundMe campaigns from time to time, but he wants to make a
 - P3: (Design) Members in a circle are arranged in a mobile circular fashion. 
 
 
-## Out of scope
+### Out of scope
 
 - A user can browse circles displayed on a map. 
 - A user can zoom out on a map as circles merge into bigger bubbles. 
@@ -98,7 +98,7 @@ John has donated to GoFundMe campaigns from time to time, but he wants to make a
 - Incorporate APIs for verification and bank transfers (Payment APIs like Stripe). 
 
 
-## UX
+### UX
 
 AidPals is being built as a mobile application.
 
@@ -156,7 +156,7 @@ Circle managers/administrators will have a page to allow them to approve and dis
 #### Walkthrough
 <img src="https://user-images.githubusercontent.com/44450889/126697731-0ee11d7f-11e0-40c6-b14c-62e8d04a88d7.png" height="400" />
 
-## Breakdown of work
+### Breakdown of work
 
 | User Story | Engineering Description | Assigned To |
 |---|---|---|
@@ -179,7 +179,7 @@ Circle managers/administrators will have a page to allow them to approve and dis
 | P1: A user can request to join a private circle. | Functional. Data stored. | Maddie |
 | P1: A private circle owner can approve requests to join the circle. | Functional. Data stored. | Maddie |
 
-## Compete analysis
+### Compete analysis
 
 Competitors of AidPals currently include: 
 
@@ -218,7 +218,7 @@ Threats:
 - Sluggish digital growth in some communities that may need the app. These people may be failing to keep up with the digital change. 
 
 
-## Future opportunities
+### Future opportunities
 
 Community Integration
 
