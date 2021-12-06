@@ -1,24 +1,26 @@
 # AidPals
-A quick look into my project from Microsoft's New Technologists 2021. All source code is property of Microsoft, and cannot be made public. 
+A quick look into my project from Microsoft's New Technologists 2021. 
+
+All **source code is property of Microsoft**, and cannot be made public. 
+
+## Project Demo (with Code Previews)
 
 
-# PROJECT PREVIEW
-<YouTube Embed/Video Embed Here>
+https://user-images.githubusercontent.com/44450889/144820169-1d89f5f3-1201-4218-8672-61fc50e93480.mp4
 
-## Dependencies
-- `npm install firebase`
-- `npm install react-router-dom`
-- `npm install react-bootstrap@next bootstrap@5.0.2`
-- `npm install @material-ui/core` and `npm install @material-ui/icons`
-- `npm install @fluentui/react`
+
+
+**Note:** I was the top project contributor, responsible for **67.3%** of total commits. 
+
+<img src="https://user-images.githubusercontent.com/44450889/144818312-1fb82a32-cc96-440f-a3c0-f995bce5842e.png" height="200" />
 
 ## Project Specification
-### Problem statement
+## Problem statement
 
 Many individuals, groups, and families often struggle to cover emergency costs (e.g., healthcare, funeral) and fear for their financial outlook. Users desire a personalized crowdfunding platform to contribute to and secure emergency funds (e.g., from friends and family, local communities, or even affinity groups (e.g., LGBTQ+, BIPOC)).
 
 
-### Summary
+## Summary
 
 Today, crowdfunding is not a reliable tool for covering emergencies, with over 90% of GoFundMe medical campaigns failing to reach their financial target. Additionally, current crowdfunding sources are impersonal and commercialized, with emphasis on storytelling. Campaigns that share an excess of personal information have shown to be the most successful, and there are concerns about the vulnerability of patients who feel pressured to subordinate their rights to privacy in order to raise money. Biases can also be roadblocks to funding—crowdfunding has been most effective in areas of high income and education, with donors coming from the same socio-economic class as those in need. This puts those in low-income and underserved communities at a significant disadvantage, and those that donate to strangers are often wary that their money is even going to the correct people/community.  
 
@@ -49,20 +51,20 @@ Every month, Rebecca and her family contribute to the circle. A few months in, h
 **Persona 3:**
 John has donated to GoFundMe campaigns from time to time, but he wants to make a recurring impact on his local community. John hears about AidPals, and realizes that he can use the app to donate to local circles. When he joins the app, he searches for communities near him and sets up a recurring donation to a popular circle in his area. He is happy that he can be sure his donations are going straight to local community members in their times of need.  
 
-### Goals
+## Goals
 
 - Build a community support system – people of similar experiences or locations can depend on and support each other financially in strenuous times or when emergencies emerge.  
 - Improve financial security - many low-income communities do not have a safety net that can be used to meet unanticipated expenses such as illness or major home repairs. AidPals could serve as an emergency fund to cover such unexpected expenses. 
 - Remove bias in crowdfunding by creating inclusive, community-oriented spaces (circles). 
 - Increase donor satisfaction - most crowdfunding apps do not take accountability in letting donors know if their contributions went into the intended goal. With AidPals, donors get to see how they helped others out. 
 
-### Non-Goals
+## Non-Goals
 - Create a fully public crowdfunding platform like GoFundMe.  
 - Display (or allow users to display) sensitive, private information to large public groups, including images of sick patients and constant medical updates.
 - Center storytelling as a factor to crowdfunding success.  
 - Allow users to request from circle pools without personal contribution. 
 
-### In scope
+## In scope
 
 - P0: A user can sign-up for the app. 
 - P0: A user can join a new circle. 
@@ -82,13 +84,10 @@ John has donated to GoFundMe campaigns from time to time, but he wants to make a
 - P1: A user can donate to an outside circle. 
 - P1: A user can verify their identity in their user profile. 
 - P1: A user can request to join a private circle.  
-- P1: A private circle owner can approve requests to join the circle. 
-- P2: A user can view their commitments and due dates on a calendar.  
-- P3: A circle owner can promote other users to ownership (admin permissions). 
-- P3: (Design) Members in a circle are arranged in a mobile circular fashion. 
+- P1: A private circle owner can approve requests to join the circle.  
 
 
-### Out of scope
+## Out of scope
 
 - A user can browse circles displayed on a map. 
 - A user can zoom out on a map as circles merge into bigger bubbles. 
@@ -98,7 +97,7 @@ John has donated to GoFundMe campaigns from time to time, but he wants to make a
 - Incorporate APIs for verification and bank transfers (Payment APIs like Stripe). 
 
 
-### UX
+## UX
 
 AidPals is being built as a mobile application.
 
@@ -156,7 +155,7 @@ Circle managers/administrators will have a page to allow them to approve and dis
 #### Walkthrough
 <img src="https://user-images.githubusercontent.com/44450889/126697731-0ee11d7f-11e0-40c6-b14c-62e8d04a88d7.png" height="400" />
 
-### Breakdown of work
+## Breakdown of work
 
 | User Story | Engineering Description | Assigned To |
 |---|---|---|
@@ -179,7 +178,7 @@ Circle managers/administrators will have a page to allow them to approve and dis
 | P1: A user can request to join a private circle. | Functional. Data stored. | Maddie |
 | P1: A private circle owner can approve requests to join the circle. | Functional. Data stored. | Maddie |
 
-### Compete analysis
+## Compete analysis
 
 Competitors of AidPals currently include: 
 
@@ -218,7 +217,7 @@ Threats:
 - Sluggish digital growth in some communities that may need the app. These people may be failing to keep up with the digital change. 
 
 
-### Future opportunities
+## Future opportunities
 
 Community Integration
 
