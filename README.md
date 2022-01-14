@@ -12,8 +12,6 @@ https://user-images.githubusercontent.com/44450889/144820169-1d89f5f3-1201-4218-
 
 **Note:** I was the top project contributor, responsible for **67.3%** of total commits. 
 
-<img src="https://user-images.githubusercontent.com/44450889/144818312-1fb82a32-cc96-440f-a3c0-f995bce5842e.png" height="200" />
-
 ## Project Specification
 ## Problem statement
 
